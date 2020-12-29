@@ -1,0 +1,91 @@
+* {
+    margin-left: 20px;
+    margin-left: 20px;
+    padding: 0;
+}
+form {
+    margin-right: 28px;
+}
+body {
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+}
+body > table {
+   width: 80%;
+}
+
+table .list {
+    width: 100%;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid rgb(182, 185, 185);
+    text-align: left;
+    padding: 8px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+tr:nth-child(even), table.list thead>tr {
+    background-color: rgb(182, 185, 185);
+    
+}
+
+
+table.list {
+    margin-top: 15px;
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(182, 185, 185);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    font-size: 1.2rem;
+    background-color: rgb(182, 185, 185);
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(135, 134, 139);
+    color: white;
+}
+form div.form-action-buttons {
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(150, 151, 151);
+    margin-right: 0;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+a.delete:hover {
+    background-color: rgb(194, 31, 31);
+    color: white;
+}
+
+a.select:hover {
+    background-color: rgb(111, 114, 110);
+}
+

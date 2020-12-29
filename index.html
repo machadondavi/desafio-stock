@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABM Stock</title>
+    <link a href="style.css" rel="stylesheet">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault(); onFormSubmit();"  autocomplete="off">
+                    <div>
+                        <label>_id:</label>
+                        <input type="text" name="_id" id="_id" >
+                    </div>
+                    <div>
+                        <label>Quantity:</label>
+                        <input type="text" name="quantity" id="quantity">
+                    </div>
+                    <div>
+                        <label>Price:</label>
+                        <input type="text" name="price" id="price">
+                    </div>
+                    <div>
+                        <label>Product:</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label>Client:</label>
+                        <input type="text" name="client" id="client">
+                    </div>
+                    <div>
+                        <label>Active:</label>
+                        <input type="text" name="active" id="active">
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+                <table class="list" id="dadosList">
+                    <thead>
+                        <tr>
+                            <th>_id</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Product</th>
+                            <th>Client</th>
+                            <th>Active</th>
+                            <th></th>
+                        </tr>
+                     </thead>
+                     <tbody>
+
+                     </tbody>
+                </table>
+            </tr>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
