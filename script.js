@@ -81,52 +81,5 @@ function updateRecord(formData) {
 
 
 
-fetch('https://crudcrud.com/api/838826211f2a4d98a0599bbc2128dc79/quantity', {
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  method: 'POST',
-  body: JSON.stringify({
-    quantity: 10
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
 
-fetch('https://crudcrud.com/api/838826211f2a4d98a0599bbc2128dc79/product', {
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  method: 'POST',
-  body: JSON.stringify({
-    product: 'Banana'
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
 
-fetch('https://crudcrud.com/api/838826211f2a4d98a0599bbc2128dc79/price', {
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  method: 'POST',
-  body: JSON.stringify({
-    price: 29.5
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
-
-fetch('https://crudcrud.com/api/838826211f2a4d98a0599bbc2128dc79/client', {
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  method: 'POST',
-  body: JSON.stringify({
-    client: 'Market'
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
-
-fetch('https://crudcrud.com/api/838826211f2a4d98a0599bbc2128dc79/active', {
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  method: 'POST',
-  body: JSON.stringify({
-    Active: 'Yes'
-  })
-})
-.then(response => response.json())
-.then(data => console.log(data))
